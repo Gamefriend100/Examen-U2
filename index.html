@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Presentación</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .resaltado:hover {
+      text-decoration: underline;
+    }
+  </style>
+     <style>
+    .carousel-item {
+      height: 300px; /* Ajusta la altura del carrusel según tus necesidades */
+    }
+  .subrayado-con-cursor {
+    text-decoration: underline;
+    cursor: pointer;
+    }
+  </style>
+  
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Minecraft</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+         <a class="nav-link active" class="subrayado-con-cursor" aria-current="page" href="#">Coso</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">otro coso</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cosos escondidos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" class="subrayado-con-cursor" href="#">coso 1</a></li>
+                  <li><a class="dropdown-item" class="subrayado-con-cursor" href="#">coso 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">coso 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+  <!-- Carrusel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="IMG/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.avif" alt="Imagen 1">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="IMG/minecraft-server-hosten-t.jpg" alt="Imagen 2">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="IMG/RhxYP5VZuYbpXFdKJSj3Sn.jpg" alt="Imagen 3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+  
+  <!-- Contenido de la página -->
+  <div class="container">
+   <center><h1>Pagina 100% oficial de minecraft</h1> </center> 
+  
+   <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Minecraft java editio</h5>
+          <p class="card-text"> Una experiencia memorable llena de bloques al estilo java</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Minecraf Bedrock</h5>
+          <p class="card-text">Mejora tu experiencia para un rendimiento</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+</div>
+ 
+<div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Minecraft Original</h5>
+          <p class="card-text">El juego original tal y como lo recuerdas</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Paquete de Minecraf</h5>
+          <p class="card-text">Paquete completo de juego de minecraft multiplataforma</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+</div>
+ 
+<img src="IMG/RhxYP5VZuYbpXFdKJSj3Sn.jpg" class="img-fluid" alt="...">
+<br>
+<br>
+<br>
+<!-- Contenido de la página -->
+<div class="container">
+   
+   
+    <div class="row">
+     <div class="col-sm-6 mb-3 mb-sm-0">
+       <div class="card">
+         <div class="card-body">
+           <h5 class="card-title">Minecraft java editio</h5>
+           <img src="IMG/minecraft-server-hosten-t.jpg" height="100px" width="500px">
+           <p class="card-text"> Una experiencia memorable llena de bloques al estilo java</p>
+           <a href="#" class="btn btn-primary">Comprar</a>
+         </div>
+       </div>
+     </div>
+     <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+           <h5 class="card-title">Minecraf Bedrock</h5>
+           <img src="IMG/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.avif" height="100px" width="500px">
+           <p class="card-text">Mejora tu experiencia para un rendimiento</p>
+           <a href="#" class="btn btn-primary">Comprar</a>
+         </div>
+       </div>
+     </div>
+ </div>
+  
+ <div class="row">
+     <div class="col-sm-6 mb-3 mb-sm-0">
+       <div class="card">
+         <div class="card-body">
+           <h5 class="card-title">Minecraft Original</h5>
+           <img src="IMG/cover-1587300068895.avif" height="100px" width="500px">
+           <p class="card-text">El juego original tal y como lo recuerdas</p>
+           <a href="#" class="btn btn-primary">Comprar</a>
+         </div>
+       </div>
+     </div>
+     <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+           <h5 class="card-title">Paquete de Minecraf</h5>
+           <img src="IMG/1366_2000.jpeg" height="100px" width="500px">
+           <p class="card-text">Paquete completo de juego de minecraft multiplataforma</p>
+           <a href="#" class="btn btn-primary">Comprar</a>
+         </div>
+       </div>
+     </div>
+ </div>
+ <br>
+ <br>
+  <style>
+    #myFooter {
+      background-color: #652bb1;
+      padding: 10px;
+      text-align: center;
+    }
+</style>
+
+<style>
+    footer {
+      background-color: #bea6c4;
+      padding: 20px;
+      text-align: center;
+      position: end ;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    .footer-content {
+      display: inline-block;
+    }
+
+    .footer-contact {
+      display: inline-block;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Contenido principal de la página -->
+  <br><br><br>
+  <footer>
+    <div class="footer-contact">
+        <p>Teléfono: 123-456-789</p>
+        <p>Email: info@mipaginaweb.com</p>
+      </div>
+    <div class="footer-content">
+      <p>&copy; 2023 Mi página web. Todos los derechos reservados.</p>
+      <ul class="footer-links">
+        Inicio <br>
+       Acerca de nosotros<br> 
+        Servicios <br>
+        Contacto <br>
+      </ul>
+    </div>
+    
+    <div class="footer-content">
+        <p>&copy; 2023 Mi página web. Todos los derechos reservados.</p>
+        <ul class="footer-links">
+          Sistemas <br>
+          Categorias <br>
+          Menus <br>
+          Mercado <br>
+        </ul>
+      </div>
+      
+    
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
+
